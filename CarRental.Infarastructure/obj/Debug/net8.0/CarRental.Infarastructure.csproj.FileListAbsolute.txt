@@ -1,0 +1,17 @@
+C:\Users\fares\source\repos\CleanArcheticture\CarRental.CleanArcheticture\CarRental.CleanArcheticture\CarRental.Infarastructure\bin\Debug\net8.0\CarRental.Infarastructure.deps.json
+C:\Users\fares\source\repos\CleanArcheticture\CarRental.CleanArcheticture\CarRental.CleanArcheticture\CarRental.Infarastructure\bin\Debug\net8.0\CarRental.Infarastructure.runtimeconfig.json
+C:\Users\fares\source\repos\CleanArcheticture\CarRental.CleanArcheticture\CarRental.CleanArcheticture\CarRental.Infarastructure\bin\Debug\net8.0\CarRental.Infarastructure.dll
+C:\Users\fares\source\repos\CleanArcheticture\CarRental.CleanArcheticture\CarRental.CleanArcheticture\CarRental.Infarastructure\bin\Debug\net8.0\CarRental.Infarastructure.pdb
+C:\Users\fares\source\repos\CleanArcheticture\CarRental.CleanArcheticture\CarRental.CleanArcheticture\CarRental.Infarastructure\bin\Debug\net8.0\CarRental.Data.dll
+C:\Users\fares\source\repos\CleanArcheticture\CarRental.CleanArcheticture\CarRental.CleanArcheticture\CarRental.Infarastructure\bin\Debug\net8.0\CarRental.Data.pdb
+C:\Users\fares\source\repos\CleanArcheticture\CarRental.CleanArcheticture\CarRental.CleanArcheticture\CarRental.Infarastructure\obj\Debug\net8.0\CarRental.Infarastructure.csproj.AssemblyReference.cache
+C:\Users\fares\source\repos\CleanArcheticture\CarRental.CleanArcheticture\CarRental.CleanArcheticture\CarRental.Infarastructure\obj\Debug\net8.0\CarRental.Infarastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fares\source\repos\CleanArcheticture\CarRental.CleanArcheticture\CarRental.CleanArcheticture\CarRental.Infarastructure\obj\Debug\net8.0\CarRental.Infarastructure.AssemblyInfoInputs.cache
+C:\Users\fares\source\repos\CleanArcheticture\CarRental.CleanArcheticture\CarRental.CleanArcheticture\CarRental.Infarastructure\obj\Debug\net8.0\CarRental.Infarastructure.AssemblyInfo.cs
+C:\Users\fares\source\repos\CleanArcheticture\CarRental.CleanArcheticture\CarRental.CleanArcheticture\CarRental.Infarastructure\obj\Debug\net8.0\CarRental.Infarastructure.csproj.CoreCompileInputs.cache
+C:\Users\fares\source\repos\CleanArcheticture\CarRental.CleanArcheticture\CarRental.CleanArcheticture\CarRental.Infarastructure\obj\Debug\net8.0\CarRenta.8033D35C.Up2Date
+C:\Users\fares\source\repos\CleanArcheticture\CarRental.CleanArcheticture\CarRental.CleanArcheticture\CarRental.Infarastructure\obj\Debug\net8.0\CarRental.Infarastructure.dll
+C:\Users\fares\source\repos\CleanArcheticture\CarRental.CleanArcheticture\CarRental.CleanArcheticture\CarRental.Infarastructure\obj\Debug\net8.0\refint\CarRental.Infarastructure.dll
+C:\Users\fares\source\repos\CleanArcheticture\CarRental.CleanArcheticture\CarRental.CleanArcheticture\CarRental.Infarastructure\obj\Debug\net8.0\CarRental.Infarastructure.pdb
+C:\Users\fares\source\repos\CleanArcheticture\CarRental.CleanArcheticture\CarRental.CleanArcheticture\CarRental.Infarastructure\obj\Debug\net8.0\CarRental.Infarastructure.genruntimeconfig.cache
+C:\Users\fares\source\repos\CleanArcheticture\CarRental.CleanArcheticture\CarRental.CleanArcheticture\CarRental.Infarastructure\obj\Debug\net8.0\ref\CarRental.Infarastructure.dll

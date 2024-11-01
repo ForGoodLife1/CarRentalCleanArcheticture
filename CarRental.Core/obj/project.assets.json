@@ -623,26 +623,6 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/2.2.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "Microsoft.EntityFrameworkCore.Relational": "2.2.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "build/netcoreapp2.0/_._": {}
-        }
-      },
       "Microsoft.EntityFrameworkCore.Relational/8.0.8": {
         "type": "package",
         "dependencies": {
@@ -2187,6 +2167,7 @@
           "CarRental.Data": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.8",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.8",
+          "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8",
           "StoredProcedureEFCore": "1.0.5",
           "Swashbuckle.AspNetCore": "6.8.1",
@@ -2905,23 +2886,6 @@
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.8.0.8.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.Design/2.2.0": {
-      "sha512": "mcsUEzg1bWvPgj/isz7aabDy41x+x8WBTmSF+JFsDGe3K5ZElWT2FSr3LLmkXk/5BLWJ3f9SDe0YR55u3ZgHrw==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.design/2.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/net461/Microsoft.EntityFrameworkCore.Design.props",
-        "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props",
-        "lib/net461/Microsoft.EntityFrameworkCore.Design.dll",
-        "lib/net461/Microsoft.EntityFrameworkCore.Design.xml",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
-        "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.2.2.0.nupkg.sha512",
-        "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/8.0.8": {
@@ -6254,11 +6218,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Core\\CarRental.Core.csproj",
+      "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Core\\CarRental.Core.csproj",
       "projectName": "CarRental.Core",
-      "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Core\\CarRental.Core.csproj",
+      "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Core\\CarRental.Core.csproj",
       "packagesPath": "C:\\Users\\fares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Core\\obj\\",
+      "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fares\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6276,14 +6240,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Data\\CarRental.Data.csproj": {
-              "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Data\\CarRental.Data.csproj"
+            "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Data\\CarRental.Data.csproj": {
+              "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Data\\CarRental.Data.csproj"
             },
-            "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj": {
-              "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj"
+            "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj": {
+              "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj"
             },
-            "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Service\\CarRental.Service.csproj": {
-              "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Service\\CarRental.Service.csproj"
+            "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Service\\CarRental.Service.csproj": {
+              "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Service\\CarRental.Service.csproj"
             }
           }
         }
@@ -6351,13 +6315,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }

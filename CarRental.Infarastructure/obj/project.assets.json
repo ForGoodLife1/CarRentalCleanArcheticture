@@ -766,7 +766,7 @@
           "Mono.TextTemplating": "2.2.1"
         },
         "compile": {
-          "lib/net8.0/Microsoft.EntityFrameworkCore.Design.dll": {
+          "lib/net8.0/_._": {
             "related": ".xml"
           }
         },
@@ -6398,6 +6398,8 @@
       "CarRental.Data >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.8",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.8",
+      "Microsoft.EntityFrameworkCore >= 8.0.8",
+      "Microsoft.EntityFrameworkCore.Design >= 8.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.8",
       "StoredProcedureEFCore >= 1.0.5",
@@ -6411,11 +6413,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj",
+      "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj",
       "projectName": "CarRental.Infarastructure",
-      "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj",
+      "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj",
       "packagesPath": "C:\\Users\\fares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Infarastructure\\obj\\",
+      "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Infarastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fares\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6433,8 +6435,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Data\\CarRental.Data.csproj": {
-              "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Data\\CarRental.Data.csproj"
+            "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Data\\CarRental.Data.csproj": {
+              "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Data\\CarRental.Data.csproj"
             }
           }
         }
@@ -6459,6 +6461,16 @@
             "version": "[8.0.8, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.8, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.8, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.8, )"
           },

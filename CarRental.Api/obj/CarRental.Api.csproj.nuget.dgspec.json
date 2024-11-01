@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Api\\CarRental.Api.csproj": {}
+    "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Api\\CarRental.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Api\\CarRental.Api.csproj": {
+    "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Api\\CarRental.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Api\\CarRental.Api.csproj",
+        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Api\\CarRental.Api.csproj",
         "projectName": "CarRental.Api",
-        "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Api\\CarRental.Api.csproj",
+        "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Api\\CarRental.Api.csproj",
         "packagesPath": "C:\\Users\\fares\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Api\\obj\\",
+        "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fares\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Core\\CarRental.Core.csproj": {
-                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Core\\CarRental.Core.csproj"
+              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Core\\CarRental.Core.csproj": {
+                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Core\\CarRental.Core.csproj"
               }
             }
           }
@@ -96,14 +96,14 @@
         }
       }
     },
-    "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Core\\CarRental.Core.csproj": {
+    "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Core\\CarRental.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Core\\CarRental.Core.csproj",
+        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Core\\CarRental.Core.csproj",
         "projectName": "CarRental.Core",
-        "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Core\\CarRental.Core.csproj",
+        "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Core\\CarRental.Core.csproj",
         "packagesPath": "C:\\Users\\fares\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Core\\obj\\",
+        "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fares\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -121,14 +121,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Data\\CarRental.Data.csproj": {
-                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Data\\CarRental.Data.csproj"
+              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Data\\CarRental.Data.csproj": {
+                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Data\\CarRental.Data.csproj"
               },
-              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj": {
-                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj"
+              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj": {
+                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj"
               },
-              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Service\\CarRental.Service.csproj": {
-                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Service\\CarRental.Service.csproj"
+              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Service\\CarRental.Service.csproj": {
+                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Service\\CarRental.Service.csproj"
               }
             }
           }
@@ -197,14 +197,14 @@
         }
       }
     },
-    "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Data\\CarRental.Data.csproj": {
+    "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Data\\CarRental.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Data\\CarRental.Data.csproj",
+        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Data\\CarRental.Data.csproj",
         "projectName": "CarRental.Data",
-        "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Data\\CarRental.Data.csproj",
+        "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Data\\CarRental.Data.csproj",
         "packagesPath": "C:\\Users\\fares\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Data\\obj\\",
+        "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fares\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -272,14 +272,14 @@
         }
       }
     },
-    "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj": {
+    "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj",
+        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj",
         "projectName": "CarRental.Infarastructure",
-        "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj",
+        "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj",
         "packagesPath": "C:\\Users\\fares\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Infarastructure\\obj\\",
+        "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Infarastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fares\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -297,8 +297,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Data\\CarRental.Data.csproj": {
-                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Data\\CarRental.Data.csproj"
+              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Data\\CarRental.Data.csproj": {
+                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Data\\CarRental.Data.csproj"
               }
             }
           }
@@ -323,6 +323,16 @@
               "version": "[8.0.8, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )"
             },
@@ -369,14 +379,14 @@
         }
       }
     },
-    "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Service\\CarRental.Service.csproj": {
+    "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Service\\CarRental.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Service\\CarRental.Service.csproj",
+        "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Service\\CarRental.Service.csproj",
         "projectName": "CarRental.Service",
-        "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Service\\CarRental.Service.csproj",
+        "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Service\\CarRental.Service.csproj",
         "packagesPath": "C:\\Users\\fares\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Service\\obj\\",
+        "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fares\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -394,11 +404,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Data\\CarRental.Data.csproj": {
-                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Data\\CarRental.Data.csproj"
+              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Data\\CarRental.Data.csproj": {
+                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Data\\CarRental.Data.csproj"
               },
-              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj": {
-                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj"
+              "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj": {
+                "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Infarastructure\\CarRental.Infarastructure.csproj"
               }
             }
           }

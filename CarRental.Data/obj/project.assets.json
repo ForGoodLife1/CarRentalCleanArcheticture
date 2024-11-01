@@ -1955,11 +1955,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Data\\CarRental.Data.csproj",
+      "projectUniqueName": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Data\\CarRental.Data.csproj",
       "projectName": "CarRental.Data",
-      "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Data\\CarRental.Data.csproj",
+      "projectPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Data\\CarRental.Data.csproj",
       "packagesPath": "C:\\Users\\fares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.Data\\obj\\",
+      "outputPath": "C:\\Users\\fares\\source\\repos\\CleanArcheticture\\CarRental.CleanArcheticture\\CarRental.CleanArcheticture\\Back\\CarRental.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fares\\AppData\\Roaming\\NuGet\\NuGet.Config",

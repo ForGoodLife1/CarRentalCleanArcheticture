@@ -14,32 +14,33 @@ using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
-using Serilog;
 using System.Globalization;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<CarRentalContext>(optiolns => optiolns.UseSqlServer(
-builder.Configuration.GetConnectionString("constr")
-));
+
+//Connection To SQL Server
+builder.Services.AddDbContext<CarRentalContext>(option =>
+{
+    option.UseSqlServer(builder.Configuration.GetConnectionString("constr"));
+});
 
 
 #region Dependency injections
+
 builder.Services.AddInfrastructureDependencies()
-                  .AddCoreDependencies()
                  .AddServiceDependencies()
+                 .AddCoreDependencies()
                  .AddServiceRegisteration(builder.Configuration);
-
-
-
 #endregion
-
 
 #region Localization
 builder.Services.AddControllersWithViews();
@@ -47,6 +48,7 @@ builder.Services.AddLocalization(opt =>
 {
     opt.ResourcesPath = "";
 });
+
 builder.Services.Configure<RequestLocalizationOptions>(options =>
 {
     List<CultureInfo> supportedCultures = new List<CultureInfo>
@@ -88,11 +90,12 @@ builder.Services.AddTransient<IUrlHelper>(x =>
 });
 builder.Services.AddTransient<AuthFilter>();
 
-//Serilog
+/*//Serilog
 Log.Logger=new LoggerConfiguration()
               .ReadFrom.Configuration(builder.Configuration).CreateLogger();
 builder.Services.AddSerilog();
 
+*/
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
@@ -125,5 +128,4 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-
 app.Run();

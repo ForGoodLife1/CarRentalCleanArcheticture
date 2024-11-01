@@ -1,8 +1,5 @@
 ﻿using CarRental.Data.Entities;
 using CarRental.Data.Entities.Identity;
-using EntityFrameworkCore.EncryptColumn.Extension;
-using EntityFrameworkCore.EncryptColumn.Interfaces;
-using EntityFrameworkCore.EncryptColumn.Util;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -12,7 +9,7 @@ namespace CarRental.Infarastructure.Context;
 
 public partial class CarRentalContext : IdentityDbContext<User, Role, int, IdentityUserClaim<int>, IdentityUserRole<int>, IdentityUserLogin<int>, IdentityRoleClaim<int>, IdentityUserToken<int>>
 {
-    private readonly IEncryptionProvider _encryptionProvider;
+    // private readonly IEncryptionProvider _encryptionProvider;
 
     public CarRentalContext()
     {
@@ -21,7 +18,7 @@ public partial class CarRentalContext : IdentityDbContext<User, Role, int, Ident
     public CarRentalContext(DbContextOptions<CarRentalContext> options)
         : base(options)
     {
-        _encryptionProvider=new GenerateEncryptionProvider("8a4dcaaec64d412380fe4b02193cd26f");
+        // _encryptionProvider=new GenerateEncryptionProvider("8a4dcaaec64d412380fe4b02193cd26f");
 
     }
     public DbSet<UserRefreshToken> UserRefreshToken { get; set; }
@@ -57,7 +54,7 @@ public partial class CarRentalContext : IdentityDbContext<User, Role, int, Ident
 
         base.OnModelCreating(modelBuilder);
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
-        modelBuilder.UseEncryption(_encryptionProvider);
+        // modelBuilder.UseEncryption(_encryptionProvider);
     }
 
 }

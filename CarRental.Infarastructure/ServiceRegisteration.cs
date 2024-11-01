@@ -72,7 +72,7 @@ namespace CarRental.Infrustructure
             //Swagger Gn
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "School Project", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Car Rental ", Version = "v1" });
                 c.EnableAnnotations();
 
                 c.AddSecurityDefinition(JwtBearerDefaults.AuthenticationScheme, new OpenApiSecurityScheme
@@ -102,17 +102,17 @@ namespace CarRental.Infrustructure
 
             services.AddAuthorization(option =>
             {
-                option.AddPolicy("CreateStudent", policy =>
+                option.AddPolicy("CreateCustomer", policy =>
                 {
-                    policy.RequireClaim("Create Student", "True");
+                    policy.RequireClaim("Create Customer", "True");
                 });
-                option.AddPolicy("DeleteStudent", policy =>
+                option.AddPolicy("DeleteCustomer", policy =>
                 {
-                    policy.RequireClaim("Delete Student", "True");
+                    policy.RequireClaim("Delete Customer", "True");
                 });
-                option.AddPolicy("EditStudent", policy =>
+                option.AddPolicy("EditCustomer", policy =>
                 {
-                    policy.RequireClaim("Edit Student", "True");
+                    policy.RequireClaim("Edit Customer", "True");
                 });
             });
 

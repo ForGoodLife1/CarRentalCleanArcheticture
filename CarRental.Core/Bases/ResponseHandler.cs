@@ -1,5 +1,5 @@
-﻿using Microsoft.Extensions.Localization;
-using CarRental.Core.Resources;
+﻿using CarRental.Core.Resources;
+using Microsoft.Extensions.Localization;
 
 namespace CarRental.Core.Bases
 {

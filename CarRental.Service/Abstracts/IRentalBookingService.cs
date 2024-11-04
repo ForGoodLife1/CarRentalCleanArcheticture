@@ -1,6 +1,6 @@
 ﻿namespace CarRental.Service.Abstracts
 {
-    public class IRentalBookingService
+    public interface IRentalBookingService
     {
     }
 }

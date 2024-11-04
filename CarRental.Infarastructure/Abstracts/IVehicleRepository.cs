@@ -5,5 +5,6 @@ namespace CarRental.Infarastructure.Abstracts
 {
     public interface IVehicleRepository : IGenericRepositoryAsync<Vehicle>
     {
+        Task<List<Vehicle>> GetAllVehiclesAsync();
     }
 }

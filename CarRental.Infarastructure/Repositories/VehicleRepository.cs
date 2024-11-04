@@ -9,14 +9,22 @@ namespace CarRental.Infarastructure.Repositories
     public class VehicleRepository : GenericRepositoryAsync<Vehicle>, IVehicleRepository
     {
         #region Fields
-        private DbSet<Vehicle> Vehicles;
+        private DbSet<Vehicle> _vehicles;
         #endregion
 
         #region Constructors
         public VehicleRepository(CarRentalContext dbContext) : base(dbContext)
         {
-            Vehicles = dbContext.Set<Vehicle>();
+            _vehicles = dbContext.Set<Vehicle>();
         }
+
+        public async Task<List<Vehicle>> GetAllVehiclesAsync()
+        {
+            return await _vehicles.Include(x => x.CarCategory)
+                                  .Include(x => x.FuelType).ToListAsync();
+        }
+
+
         #endregion
 
         #region Handle Functions

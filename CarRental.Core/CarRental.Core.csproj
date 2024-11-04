@@ -22,4 +22,8 @@
     <ProjectReference Include="..\CarRental.Service\CarRental.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Mapping\VehicleMapping\Commands\" />
+  </ItemGroup>
+
 </Project>

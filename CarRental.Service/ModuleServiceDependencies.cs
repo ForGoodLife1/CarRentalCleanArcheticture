@@ -11,6 +11,13 @@ namespace CarRental.Service
         public static IServiceCollection AddServiceDependencies(this IServiceCollection services)
         {
             services.AddTransient<ICustomerService, CustomerService>();
+            services.AddTransient<IFuleTypeService, FuleTypeService>();
+            services.AddTransient<IMaintenanceService, MaintenanceService>();
+            services.AddTransient<IRentalBookingService, RentalBookingService>();
+            services.AddTransient<IRentalTransactionService, RentalTransactionService>();
+            services.AddTransient<IVehicleCategoryService, VehicleCategoryService>();
+            services.AddTransient<IVehicleReturnService, VehicleReturnService>();
+            services.AddTransient<IVehicleService, VehicleService>();
             services.AddTransient<IAuthenticationService, AuthenticationService>();
             services.AddTransient<IAuthorizationService, AuthorizationService>();
             services.AddTransient<IEmailsService, EmailsService>();

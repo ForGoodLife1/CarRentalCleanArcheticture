@@ -7,7 +7,16 @@
         public const string root = "Api";
         public const string version = "V1";
         public const string Rule = root + "/" + version + "/";
+        public static class VehicleRouting
+        {
+            public const string Prefix = Rule + "Vehicle";
+            public const string List = Prefix + "/List";
+            public const string GetByID = Prefix + "/Id";
+            public const string Create = Prefix+"/Create";
+            public const string Edit = Prefix+"/Edit";
+            public const string Delete = Prefix+"/{id}";
 
+        }
         public static class CustomerRouting
         {
             public const string Prefix = Rule + "Customer";

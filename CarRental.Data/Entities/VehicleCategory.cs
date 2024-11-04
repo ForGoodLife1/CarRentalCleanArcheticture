@@ -1,6 +1,8 @@
-﻿namespace CarRental.Data.Entities;
+﻿using CarRental.Data.Commons;
 
-public partial class VehicleCategory
+namespace CarRental.Data.Entities;
+
+public partial class VehicleCategory : GeneralLocalizableEntity
 {
     public int CategoryId { get; set; }
 

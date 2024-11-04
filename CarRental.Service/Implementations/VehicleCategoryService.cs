@@ -1,6 +1,7 @@
 ﻿using CarRental.Data.Entities;
 using CarRental.Infarastructure.Abstracts;
 using CarRental.Service.Abstracts;
+using Microsoft.EntityFrameworkCore;
 
 namespace CarRental.Service.Implementations
 {
@@ -13,14 +14,16 @@ namespace CarRental.Service.Implementations
             _vehicleCategoryRepository=vehicleCategoryRepository;
         }
 
-        public Task<VehicleCategory> GetVehicleCategoryById(int id)
+        public async Task<VehicleCategory> GetVehicleCategoryById(int id)
         {
-            throw new NotImplementedException();
+            var vehicleCategory = await _vehicleCategoryRepository.GetTableNoTracking().Where(x => x.CategoryId.Equals(id))
+                                                                 .Include(x => x.Vehicles).FirstOrDefaultAsync();
+            return vehicleCategory;
         }
 
-        public Task<bool> IsVehicleCategoryIdExist(int VehicleCategoryId)
+        public async Task<bool> IsVehicleCategoryIdExist(int VehicleCategoryId)
         {
-            throw new NotImplementedException();
+            return await _vehicleCategoryRepository.GetTableNoTracking().AnyAsync(x => x.CategoryId.Equals(VehicleCategoryId));
         }
     }
 }

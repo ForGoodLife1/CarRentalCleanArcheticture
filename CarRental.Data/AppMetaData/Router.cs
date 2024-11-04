@@ -28,12 +28,12 @@
             public const string Paginated = Prefix + "/Paginated";
 
         }
-        public static class DepartmentRouting
+        public static class VehicleCategoryRuting
         {
-            public const string Prefix = Rule + "RentalBookings";
+            public const string Prefix = Rule + " VehicleCategory";
             public const string GetByID = Prefix + "/Id";
-            public const string GetDepartmentStudentsCount = Prefix + "/RentalBookings-Customers-Count";
-            public const string GetDepartmentStudentsCountById = Prefix + "/RentalBookings-Customers-Count-ById/{id}";
+            public const string GetVehicleCategoryRCount = Prefix + "/VehicleCategory-Vehicles-Count";
+            public const string GetVehicleCategorysRCountById = Prefix + "/VehicleCategorys-Vehicles-Count-ById/{id}";
 
         }
         public static class ApplicationUserRouting
